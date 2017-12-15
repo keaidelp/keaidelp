@@ -1742,11 +1742,6 @@ pre .javascript .function {
   max-width: 120px;
   height: auto;
   border: 1px solid #eee;
-/* 头像圆形 */
-  border-radius: 80px;
-  -webkit-border-radius: 80px;
-  -moz-border-radius: 80px;
-  box-shadow: inset 0 -1px 0 #333 sf;
 }
 .site-author-name {
   margin: 0;
@@ -1828,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #14d705;
+  background: #d1f7e0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2989,7 +2984,7 @@ pre .javascript .function {
 }
 .post-block {
   padding: 40px;
-  background: #fff;
+  background: rgba(255,255,255,0.333);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
 }
@@ -3126,9 +3121,18 @@ pre .javascript .function {
     margin: 8px 0 0;
   }
 }
+.post {
+  background: rgba(245,229,193,0.2);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
 body {
-  background-image: url("/images/15_bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-image: url("/images/bg2.jpg");
+  background-attachment: scroll;
+  background-repeat: repeat-x;
+  background-color: #f5e5c1;
+  background-size: 100% auto;
 }
